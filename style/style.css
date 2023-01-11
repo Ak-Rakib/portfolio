@@ -1,0 +1,474 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* body {
+  background-image: url(../images/rm314-adj-10.jpg);
+  background-repeat: repeat-y;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  overflow-x: hidden;
+} */
+
+.header {
+  background-color: #eff5f5;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+}
+
+nav h1 {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
+}
+
+nav h1 span {
+  color: #757575;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.btn-primary {
+  width: 150px;
+  padding: 15px 5px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: all 0.5s ease-out;
+  border: 1px solid;
+  text-align: center;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #f6f6f6;
+  color: black;
+  cursor: pointer;
+}
+
+/* ---------------------------- */
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.banner-title {
+  color: #474747;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.author-name {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  margin-bottom: 30px;
+  padding-right: 200px;
+}
+
+.banner-img {
+  width: 584px;
+  height: 676px;
+}
+
+.btn-primary-outline {
+  width: 150px;
+  padding: 15px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: 700;
+  color: black;
+  margin-left: 10px;
+  background-color: #f6f6f6;
+  transition: all 0.5s ease-out;
+  text-align: center;
+}
+
+.btn-primary-outline:hover {
+  background-color: #f6f6f6;
+  color: black;
+  cursor: pointer;
+  border: none;
+}
+
+/* -------- Main section ----------- */
+.container {
+  margin: 0px 230px;
+}
+
+/* -------- About section --------- */
+.about {
+  margin-top: 130px;
+  background-color: #eff5f5;
+  padding: 130px 155px;
+}
+
+.about-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.my-info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.user-details-info {
+  font-weight: 700;
+  font-size: 11px;
+  color: #474747;
+}
+
+/* ---------- about my work ----------- */
+.work-details {
+  margin-top: 130px;
+  background-color: #eff5f5;
+}
+
+.work-title {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 130px;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.work-description {
+  text-align: center;
+  padding: 0px 155px;
+  padding-bottom: 50px;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-details-card {
+  background-color: white;
+  width: 267px;
+  height: 377px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px 33px;
+  margin-right: 20px;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+.work-details-card:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.work-details-icon {
+  width: 44px;
+  height: 44px;
+  padding-bottom: 30px;
+}
+
+.work-details-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  padding-bottom: 20px;
+}
+
+.work-details-description {
+  color: #757575;
+  font-size: 16px;
+}
+
+/* -------- summary ---------- */
+.summary-details {
+  margin-top: 130px;
+  margin-bottom: 121px;
+}
+.experience {
+  margin-left: 120px;
+}
+
+.summary-title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 113px;
+}
+
+.resume-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-heading {
+  color: #474747;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.subject-name {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+.institute {
+  font-weight: 600;
+  font-size: 15px;
+  color: #757575;
+  margin-bottom: 5px;
+}
+
+.educational-details {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+.resume-heading01 {
+  color: #474747;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.subject-name01 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+.institute01 {
+  font-weight: 600;
+  font-size: 15px;
+  color: #757575;
+  margin-bottom: 5px;
+}
+
+.educational-details01 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+.border {
+  width: 370px;
+  height: 0px;
+  border: 1px solid #d1d1d1;
+  margin-top: 30px;
+}
+
+/* --------- rating diagram ---------- */
+.rating-diagram {
+  margin-top: 121px;
+}
+
+.diagram-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.diagram-title {
+  width: 114px;
+  height: 27px;
+  color: #474747;
+}
+
+.diagram01 {
+  width: 340px;
+  height: 10px;
+  background-color: black;
+  margin-bottom: 26px;
+}
+
+.diagram02 {
+  width: 300px;
+  height: 10px;
+  background-color: black;
+  margin-bottom: 26px;
+}
+
+.diagram03 {
+  width: 310px;
+  height: 10px;
+  background-color: black;
+  margin-bottom: 26px;
+}
+
+.diagram04 {
+  width: 330px;
+  height: 10px;
+  background-color: black;
+  margin-bottom: 26px;
+}
+
+.diagram05 {
+  width: 280px;
+  height: 10px;
+  background-color: black;
+  margin-bottom: 26px;
+}
+
+.diagram06 {
+  width: 230px;
+  height: 10px;
+  background-color: black;
+  margin-bottom: 26px;
+}
+
+/* -------- Amazing work -------- */
+.my-amazing-work {
+  margin-top: 130px;
+}
+
+.my-work-title {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 50px;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+  justify-content: center;
+}
+
+.one {
+  width: 364px;
+  height: 300px;
+}
+
+.two {
+  width: 364px;
+  height: 416px;
+}
+
+.three {
+  width: 364px;
+  height: 222px;
+}
+
+.four {
+  width: 364px;
+  height: 416px;
+}
+
+.five {
+  width: 364px;
+  height: 300px;
+}
+
+.six {
+  width: 364px;
+  height: 494px;
+}
+
+.photo-gallery img {
+  border-radius: 5px;
+}
+
+.photo-gallery,
+img:hover {
+  cursor: pointer;
+}
+
+/* ------- footer section --------- */
+.footer-section {
+  margin-top: 130px;
+  width: 1263px;
+  height: 580px;
+  background: #eff5f5;
+}
+
+.footer-parents {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 150px;
+}
+
+.footer-child01 {
+  margin-right: 117px;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.footer-icon {
+  display: flex;
+}
+
+.footer-icon,
+img {
+  margin-right: 10px;
+}
+
+.info-option {
+  border: 0px;
+  margin-top: 10px;
+  width: 261px;
+  height: 30px;
+  padding: 10px;
+}
+
+.info-option01 {
+  border: 0px;
+  width: 261px;
+  height: 30px;
+  padding: 10px;
+}
+
+.text-option {
+  width: 400px;
+  height: 180px;
+  margin: 10px 0px;
+  border: 0px;
+  padding: 10px;
+}
+
+.footer-child02 {
+  margin-left: 200px;
+}
+
